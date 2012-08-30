@@ -1,0 +1,8 @@
+<h3 >Step 2: Removal</h3>
+<p >Removing the lense is usually pretty simple.</p>
+<ol >
+	<li>Locate the button on the camera that will release the lense, if it has one.</li>
+	<li>Hold the button down (if it has one) and rotate the lense or ring until the dots line up</li>
+	<li>Carefully remove the lense.</li>
+	<li>Cap the lense, body and lense side, making sure both sides are secure.</li>
+</ol>

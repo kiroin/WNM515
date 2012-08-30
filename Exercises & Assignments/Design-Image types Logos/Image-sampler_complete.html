@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Image sampler</title>
+	<style type="text/css">
+		body{
+			font-family: arial, verdana, sans-serif;
+			background-color: #efefef;
+		}
+		.group{
+			border: 1px dotted #666666; margin: 20px;
+		}
+		.group div{
+			width: 300;
+			display: inline-block;
+			padding: 10px;
+		}
+		h2{
+			font-size: 12px;
+		}
+		.white{
+			background-color: #fff;
+		}
+		.yellow{
+			background-color: #f7de53;
+		}
+	</style>
+</head>
+<body>
+		<h1>Image sampler</h1>
+
+	<div class="group">
+		<div class="white">
+			<h2>1: gif with white matte (on white)</h2>
+			<img src="images/logo-gif-white.gif" alt="gif white">
+		</div>
+		<div class="yellow">
+			<h2>2: gif with white matte (on yellow)</h2>
+			<img src="images/logo-gif-white.gif" alt="gif white">
+		</div>
+	</div>
+
+	<div class="group">
+		<div class="white">
+			<h2>3: gif with yellow matte (on white)</h2>
+			<img src="images/logo-gif-yellow.gif" alt="gif yellow">
+		</div>
+		<div class="yellow">
+			<h2>4: gif with yellow matte (on yellow)</h2>
+			<img src="images/logo-gif-yellow.gif" alt="gif yellow">
+		</div>
+	</div>
+
+
+	<div class="group">
+		<div class="white">
+			<h2>5: png 24 (on white)</h2>
+			<img src="images/logo-png24.png" alt="png">
+		</div>
+		<div class="yellow">
+			<h2>6: png 24 (on yellow)</h2>
+			<img src="images/logo-png24.png" alt="png">
+		</div>
+	</div>
+	
+	<div class="group">
+		<div>
+			<h2>7: Jpg high quality</h2>
+			<img src="images/logo-jpg-high.jpg" alt="jpg low">
+		</div>	
+		<div>
+			<h2>8: Jpg low quality</h2>
+			<img src="images/logo-jpg-low.jpg" alt="jpg low">
+		</div>
+	</div>
+</body>
+</html>

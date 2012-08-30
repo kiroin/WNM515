@@ -1,0 +1,8 @@
+<h3 >Step 4: Finish up</h3>
+<p >Now is the time to do the clean up and final prep</p>
+<ul >
+	<li>Put the old lense away</li>
+	<li>Attatch any filters</li>
+	<li>Attatch the lense hood (if any)</li>
+	<li>take more photos</li>
+</ul>

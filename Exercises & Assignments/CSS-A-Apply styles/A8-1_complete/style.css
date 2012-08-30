@@ -1,0 +1,50 @@
+body {
+	background-color: #e9b929;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: sans-serif;
+}
+
+#wrapper {
+	background-color: white;
+	width: 80%;
+	margin: auto;
+}
+
+#title {
+	background-color: #f7de53;
+	font-size: 36px;
+	font-family: sans-serif;
+	margin: 10px;
+}
+
+#topHalf, #bottomHalf{
+	margin: 10px;
+}
+
+#content div{
+	padding: 5px;
+}
+
+#instructionImg {
+	float: left;
+}
+.sectionTitle {
+	background-color: #f7de53;
+	font-size: 20px;
+	font-family: sans-serif;
+	width: 500px;
+	margin-bottom: 20px;
+}
+#ingredients {
+	width: 40%;
+	float: left;
+}
+#nutritionFacts {
+	width: 40%;
+	float: left;
+}
+#footer {
+	clear: both;
+	background-color: black;
+}

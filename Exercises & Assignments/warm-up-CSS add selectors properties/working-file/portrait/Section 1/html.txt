@@ -1,0 +1,6 @@
+<body >
+	<h1 >How to change a lense in a camera</h1>
+	<p >This guide will walk you through changing a lense in a DSLR camera.</p>
+	<h2 >The Guide</h2>
+	<h3 >Step 1: Inspection</h3>
+</body>

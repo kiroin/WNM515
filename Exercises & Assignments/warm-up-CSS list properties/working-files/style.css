@@ -1,0 +1,10 @@
+h3{ font-family: rockwell, sans-serif;}
+
+.event-section{border: 1px blue dashed; margin: 10px;}
+
+.event {color: brown; }
+.event h3 { color:purple; text-transform: uppercase; letter-spacing: 0.1em;}
+.event em{ color: green; }
+
+#ladies-night{ background-color: pink;}
+#ladies-night h3{ color: red;}

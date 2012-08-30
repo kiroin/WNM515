@@ -1,0 +1,58 @@
+body{
+	font-family: arial, verdana, sans-serif;
+	color: #4A3E2A;
+	background-color: #4E522F;
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #826D23;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #EDE9CC;
+}
+
+#pageHeader{
+	background-color: #8D9456;
+	color: #EDE9CC;
+}
+#pageHeader h1,  #pageHeader h2{
+	font-family: georgia, serif;
+	margin: 0px;
+}
+#pageHeader{
+	padding: 40px 20px;
+}
+#pageHeader h2{
+	font-weight: normal;
+	font-style: italic;
+}
+
+#quickSummary{
+	background-color: #CAD9A9;
+	color: #626B20;
+	padding: 20px 60px;
+	width: 600px;
+	margin: 20px auto;
+}
+#preamble{
+	background-color: #8D9456;
+	color: #EDE9CC;
+	padding: 20px;
+	line-height: 1.5em;
+	width: 400px;
+	margin-left: 40px;
+	float: right;
+}
+
+#supportingText  div{
+	line-height: 1.5em;
+	background-color: #CAD9A9;
+	padding: 20px 40px;
+}
+#linkList{
+	clear: both;
+}

@@ -1,0 +1,40 @@
+	/* Begin completed CSS */
+		.top-nav-complete{
+			width: 960px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		/* helps keep floating items inside container */
+		.clear{clear: both; height: 0px;}
+		
+		.top-nav-complete a{
+			display:block;
+			height: 141px;
+			float: left;
+		}
+		#nav-logo-complete{
+			width: 308px;
+			background-image: url('../images/nav-logo.gif');
+		}
+		#nav-home-complete{
+			width: 162px;
+			background-image: url('../images/nav-home.gif');
+		}
+		#nav-menu-complete{
+			width: 162px;
+			background-image: url('../images/nav-menu.gif');
+		}
+		#nav-about-complete{
+			width: 162px;
+			background-image: url('../images/nav-about.gif');
+		}
+		#nav-locations-complete{
+			width: 166px;
+			background-image: url('../images/nav-locations.gif');
+		}
+		#nav-home-complete:hover{ background-image: url('../images/nav-home-hover.gif');}
+		#nav-menu-complete:hover{ background-image: url('../images/nav-menu-hover.gif');}
+		#nav-about-complete:hover{ background-image: url('../images/nav-about-hover.gif');}
+		#nav-locations-complete:hover{ background-image: url('../images/nav-locations-hover.gif');}
+		
+		/* end completed css */

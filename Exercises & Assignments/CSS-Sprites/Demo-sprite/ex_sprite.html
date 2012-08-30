@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Sprite Demo</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+	<style type="text/css">
+	body{
+		background-color: #666666;
+		font-family: trebuchet ms, helvetica, arial, sans-serif;
+		color:#ffffff;	
+	}
+	.main-container{
+		width: 980px;
+		padding: 40px;
+	}
+
+	.subtitle{
+		width: 500px;
+		margin: 20px;
+		border: 2px #67757F solid;
+		padding: 20px;
+	}
+	.subtitle p {
+		margin: 15px 0 0 0;
+		padding: 0;
+	}
+
+	a.btn{
+		width: 100px;
+		height: 25px;
+		display: inline-block;
+		background: #2174ef url("images/ex_sprite.gif") 0px 0px;
+	}
+	a.btn:hover{
+		background-position: -200px 0px;
+	}
+	a.btn:active{
+		background-position: -300px 0px;
+	}
+	strong{
+		color: #f3c296;
+	}
+	</style>
+</head>
+<body>
+	<div class="main-container">
+		<h2>Sprite example</h2>
+		<div class="subtitle" >
+			<img src="images/ex_sprite.gif" alt="sprite sample"/> <br/>
+		
+			<p>
+			Here is the sprite image in its entirety. Notice how all four states are part of one single image. </p>
+		</div>
+
+		<div class="subtitle" >
+			<p>By changing the background-position I can selectively mask my image. Rollover the following button to see the code in action.</p>
+			<p>
+				<a class="btn">&nbsp; </a>  <a class="btn">&nbsp; </a>
+			</p>
+			<code>
+				a.btn{<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;width: 100px;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;height: 25px;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;display: inline-block;<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;background: #2174ef url("images/ex_sprite.gif") 0px 0px;<br>
+				}<br>
+				a.btn:hover{ background-position: -200px 0px;} <br>
+				a.btn:active{ background-position: -300px 0px;}
+			</code>
+		</div>
+
+	</div>
+</body>
+</html>

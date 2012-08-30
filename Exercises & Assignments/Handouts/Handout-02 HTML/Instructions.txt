@@ -1,0 +1,94 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: Class_Notes_02.indd
+
+PACKAGE DATE: 8/11/12 5:22 PM
+Creation Date: 2/5/11
+Modification Date: 8/11/12
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page2
+
+FONTS
+8 Fonts Used; 0 Missing, 3 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: Arial-BoldMT; Type: TrueType, Status: Embedded
+- Name: Arial-BoldMT; Type: OpenType TrueType, Status: OK
+- Name: Arial-ItalicMT; Type: OpenType TrueType, Status: OK
+- Name: ArialMT; Type: TrueType, Status: Embedded
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+- Name: FertigoPro-Regular; Type: OpenType Type 1, Status: OK
+- Name: Monaco; Type: TrueType, Status: OK
+- Name: Museo300-Regular; Type: Type 1, Status: Embedded
+
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Magenta; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Black; Angle: 0.000; Lines/Inch: 0.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 5 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 4 use RGB color space
+
+
+PRINT SETTINGS
+PPD: N/A, (hp deskjet 5100)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0p0, 0p0, 0p0, 0p0
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Letter
+Paper Dimensions: 51p0 x 66p0
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. Class_Notes_02.indd; type: Adobe InDesign publication; size: 2236K
+2. Arial Bold.ttf; type: Font file; size: 733K
+3. Arial Italic.ttf; type: Font file; size: 540K
+4. Arial.ttf; type: Font file; size: 755K
+5. Fertigo_PRO.otf; type: Font file; size: 51K
+6. Monaco.dfont; type: Font file; size: 554K

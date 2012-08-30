@@ -1,0 +1,43 @@
+Material list: Fall 2012
+
+M01: 
+	Warm-up Design Name Card
+	Warm-up Design image size
+	Design server organization
+M02:
+	HTML A Images and links recipe site alias
+	CSS-A-intro alias
+M03: 
+	Warm-up List CSS properties
+M04:
+	p1-portfolio 
+	P2 Restaurant demo
+M05:
+	Design Image types Logos	Design Image-Filetypes
+	Design-slice alias
+M06:
+	Design-Style tile
+M07:
+	Warm-up CSS Selection specificity
+	CSS-Float-Column layouts alias
+	Design-mockups
+M08:
+	Warm-up HTML-CSS Debugging
+	HTML-tables tictactoe
+M09:
+	Design-User Testing
+M10:
+	CSS-BG-tiling texture2
+M11:
+	Design-Style guide
+M12:
+M13:
+	Warm-up CSS type properties alias
+	CSS-positioning
+	warm-up-HTML-build about alias
+M14: 
+	Warm-up CSS add selectors properties alias
+	Web-worpress
+	JS-Slideshow demo
+	JS-Lightbox demo
+M15:

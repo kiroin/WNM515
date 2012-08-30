@@ -1,0 +1,52 @@
+// This is a script for a user test. Comments to you between slashes //
+
+// introduce the user to the test environment //
+Hi, thank you for coming today.
+
+I'm going to show you some designs for a website today that I want your feedback on. The test will take about 10 minutes. I first want to assure sure that you can give no wrong answers. The site is being tested, not you. Please tell me your honest opinion and don't worry about offending me. I value your opinion and your comments will help to improve the site.
+
+// Ask some questions about general usage, habits. Get some statistic data, feel for the participant. Questions resemble design questionnaire, but users are answering rather than the designer.  //
+First, can you tell me a little about yourself?
+	Do you go to restaurants? How often? What type? With others?
+	How do you decide on a restaurant to go to?
+	Do you use the internet? How long per day/week?
+	Do you visit restaurant or food sites online? Any favorites?
+	What do you look for in a restaurant website?
+
+// Show first page and ask what they notice. It's important to get their impression, but it's up to you to figure out what's working or not //
+Now lets take a look at our first screen. Please speak your thoughts out loud as I show you the following pages of a web site. You can scroll and look around but please don't click on anything yet.
+	Please tell me what you see on the page. Try to think aloud and explain your thoughts.
+	What site do you think you are on? What page is this?
+	What kind of restaurant is this? Food? Price range? Environment?
+	Would you go to this restaurant? Why/not?
+
+// Now ask about their next actions //
+	What would you do next after seeing this page?
+// ask before you show them - get their expectations without bias//
+	If you clicked there, what do you expect to see on the page?
+
+// If you have said page, then show that. Otherwise just show next mockup, like the menu page. (1= home, 2=menu, 3=about, 4=locations) 
+
+//
+	So here's a new page, what do you think this page is about?
+	What would you want to do on this page? (can you do it?)
+	What would you want to order? Why?
+	What does the menu tell you about this restaurant?
+	If you wanted to go to the previous page that we saw, what would you do?
+
+// Location page - want to see if multiple locations are clear //
+	Ok, this is the last page. Can you tell me what page we're on? 
+	What do you see on this page?
+	If you decided you wanted to go to this restaurant, what would you do?
+
+// End with some general questions //
+	So based on what you've seen, did you like this restaurant's site? 
+	Do you think you'd visit this restaurant? 
+	Do you have any suggestions for improving this site?
+
+// End and thank participant
+	Ok, that's all the questions I have for you. Do you have any questions or comments for me?
+	Great, thank you very much. This has been very helpful. 
+	(Here's your gift certificate for participating)
+
+

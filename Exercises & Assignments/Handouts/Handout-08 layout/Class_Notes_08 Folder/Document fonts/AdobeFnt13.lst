@@ -1,0 +1,85 @@
+%!Adobe-FontList 1.13
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPSMT
+FamilyName:Courier New
+StyleName:Regular
+MenuName:Courier New
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Courier New
+WritingScript:Roman
+OutlineFileName:\Courier New.ttf
+DataFormat:sfntData
+FileLength:684624
+FileModTime:1336298478
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Museo300-Regular
+FamilyName:Museo
+StyleName:300
+MenuName:Museo 300
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Museo 300 Regular
+WritingScript:Roman
+OutlineFileName:\Museo300-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:127152
+FileModTime:1205132705
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Museo700-Regular
+FamilyName:Museo
+StyleName:700
+MenuName:Museo 700
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Museo 700 Regular
+WritingScript:Roman
+OutlineFileName:\Museo700-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:129136
+FileModTime:1205132712
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MuseoSans-500
+FamilyName:Museo Sans
+StyleName:500
+MenuName:Museo Sans 500
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Museo Sans 500
+WritingScript:Roman
+OutlineFileName:\MuseoSans_500.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:62504
+FileModTime:1221185379
+%EndFont
+

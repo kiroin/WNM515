@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>layout sampler</title>
+    <style type="text/css">
+	body{
+		background-image: url("images/stripes_tilable.gif");
+		background-repeat: repeat;
+	}
+	.container{
+		width: 940px;
+		padding: 10px;
+		background-color: #f9f9f9;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h1{
+		font-family: georgia, serif;
+	}
+	
+
+	table.example td{
+		width: 70px;
+		height: 50px;
+		border: #c79a84 2px solid;
+	}
+	.table-highlighted{
+		background-color:#faf5b8;
+	}
+	a{
+		outline: none;
+	}
+	a#button-menu{
+		width: 200px;
+		height: 50px;
+		display: block;
+		background-image: url("images/button_menu_off.png");
+	}
+	a#button-menu:hover{
+		background-image: url("images/button_menu_over.png");
+	}
+	a#button-menu:active{
+	}
+	
+	.ex-padding{
+		background-color: #339933;
+		padding: 40px;
+	}
+	.ex-margin{
+		background-color: #339933;
+		margin: 40px;
+	}
+    </style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>layout sampler</h1>
+		
+		<h2>Colspan, rowspan</h2>
+		
+		<table><tbody><tr>
+		<td>
+			<!-- begin table 1-->
+			<table class="example">
+				<caption>3x3 Table</caption>
+				<tbody>
+					<tr>
+						<td class="table-highlighted">A1</td>
+						<td>B1</td>
+						<td>C1</td>
+					</tr>
+					<tr>
+						<td>A2</td>
+						<td>B2</td>
+						<td>C2</td>
+					</tr>
+					<tr>
+						<td>A3</td>
+						<td>B3</td>
+						<td>C3</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- end table 1-->
+		</td>
+		<td>
+			<!-- begin table 2-->
+			<table class="example">
+				<caption>3x3 with rowspan = 2</caption>
+				<tbody>
+					<tr>
+						<td class="table-highlighted" rowspan=2>A1</td>
+						<td>B1</td>
+						<td>C1</td>
+					</tr>
+					<tr>
+						
+						<td>B2</td>
+						<td>C2</td>
+					</tr>
+					<tr>
+						<td>A3</td>
+						<td>B3</td>
+						<td>C3</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- end table 2-->
+		</td>
+		<td>
+			<!-- begin table 3-->
+			<table class="example">
+				<caption>3x3 Table with colspan = 2</caption>
+				<tbody>
+					<tr>
+						<td class="table-highlighted" colspan=2>A1</td>
+						<td>C1</td>
+					</tr>
+					<tr>
+						<td>A2</td>
+						<td>B2</td>
+						<td>C2</td>
+					</tr>
+					<tr>
+						<td>A3</td>
+						<td>B3</td>
+						<td>C3</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- end table 3-->
+		</td>
+		</tr></tbody></table>
+		
+		<hr>
+		<h2>Padding, margin</h2>
+		<p class="ex-padding">Item with lots padding</p>
+		<p class="ex-margin">Item with lots of margin</p>
+
+
+		<hr>
+		<h2>Background image: put background image on the body, repeat</h2>
+		<h2>Seamless tiling- see tiling demo</h2>
+		
+		<h2>buttons using an image a link</h2>
+		<a href="#"><img src="images/button_menu_over.png"></a>
+		<a href="#"><img src="images/beach_sm.jpg"></a>
+		
+		<h2>Link using background image to get hover effect</h2>
+		<a href="pages.html" id="button-menu"></a>
+		
+		<hr>
+		
+	</div>
+</body>
+</html>
