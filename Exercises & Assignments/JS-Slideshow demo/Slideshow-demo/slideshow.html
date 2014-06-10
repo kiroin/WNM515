@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Slideshow Demo</title>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.slides.min.js"></script>
+		<link href="css/slideshow.css" rel="stylesheet" type="text/css"></link>
+		
+		<!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+		<script type="text/javascript">
+			$(function() {
+				$('#slides').slidesjs({
+					width: 940,
+					height: 528,
+					navigation: {
+						active: false,
+					},
+					play: {
+						active: false,
+						interval: 3000,
+						restartDelay: 2500,
+						pauseOnHover: true,
+						auto: true
+					}
+				});
+			});
+		</script>
+		<!-- End SlidesJS Required -->
+
+
+		<link href="css/style.css" rel="stylesheet" type="text/css"></link>
+	
+
+	</head>
+	<body>
+		<h1>Slideshow Demo</h1>
+		<p class="description">
+			Add a javascript slideshow to your page. This example uses <a href="http://slidesjs.com/">SlidesJS (3.0.4)</a> and <a href="http://jquery.com">jQuery (1.9.1)</a>
+		</p>
+
+		<!-- SlidesJS Required: Start Slides -->
+		<div class="container"><!-- The container is used to define the width of the slideshow -->
+			<div id="slides">
+			  <img src="images/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+			  <img src="images/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+			  <img src="images/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+			  <img src="images/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+			  
+			  <!-- Navigation between slides -->
+			  <a href="#" class="slidesjs-previous slidesjs-navigation"></a>
+			  <a href="#" class="slidesjs-next slidesjs-navigation"></a>
+			</div>
+		</div>
+		<!-- End SlidesJS Required: Start Slides -->
+
+
+
+		<!-- Begin insructrions -->
+		<ol class="instructions">
+			<li>
+				Add the html content (to the body section) 
+				<pre><code>&lt;div class="container"&gt;
+	&lt;div id="slides"&gt;
+	  &lt;img src="images/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/"&gt;
+	  &lt;img src="images/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/"&gt;
+	  &lt;img src="images/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/"&gt;
+	  &lt;img src="images/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/"&gt;
+	  
+	  &lt;!-- Navigation between slides --&gt;
+	  &lt;a href="#" class="slidesjs-previous slidesjs-navigation"&gt;&lt;/a&gt;
+	  &lt;a href="#" class="slidesjs-next slidesjs-navigation"&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+			</li>
+			<li>
+				Link jQuery and SlideJS javascript files. (Add to the head section)
+				<pre><code>&lt;script src="js/jquery-1.9.1.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="js/jquery.slides.min.js" type="text/javascript"&gt;&lt;/script&gt;</code></pre>
+			</li>
+			<li>
+				Link the CSS (you can customize the look of the slideshow within)
+				<pre><code>&lt;link href="css/slideshow.css" rel="stylesheet" type="text/css"&gt;&lt;/link&gt;</pre></code>
+			</li>
+			<li>
+				Activate slideshow by adding javascript
+				<pre><code>&lt;script type="text/javascript"&gt;
+	$(function() {
+		$('#slides').slidesjs({
+			width: 940,
+			height: 528,
+			navigation: false
+		});
+	});
+&lt;/script&gt;</code></pre>
+			</li>
+		</ol>
+	</body>
+</html>

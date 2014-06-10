@@ -4,11 +4,15 @@ M01:
 	Warm-up Design Name Card
 	Warm-up Design image size
 	Design server organization
+	Design-hosting alias
+	Code bootcamp 1
 M02:
 	HTML A Images and links recipe site alias
 	CSS-A-intro alias
+	Code bootcamp 2
 M03: 
 	Warm-up List CSS properties
+	Code bootcamp 1
 M04:
 	p1-portfolio 
 	P2 Restaurant demo
