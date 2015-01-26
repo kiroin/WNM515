@@ -1,0 +1,91 @@
+html, body{
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.container{
+	width: 960px;
+	margin: auto;
+}
+
+header {
+	background-color: #3399cc;
+	color: #fff;
+	padding: 20px;
+}
+header a{
+	padding: 10px 20px;
+}
+
+
+.main-image{
+	background-color: teal;
+	background-image: url('images/main.jpg');
+	background-size: cover;
+	background-position: center center;
+	color: #333;
+	text-align: center;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.7);
+}
+.main-image h1{
+	margin: 0;
+	padding: 100px 200px;
+}
+
+.ad-1, .ad-2{
+	width: 470px;
+	height: 90px;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+	display: block;
+	background-color: #efefef;
+	text-align: center;
+}
+.ad-1{
+	margin-right: 20px;
+}
+
+
+.quick-links {
+	float: left;
+	width: 340px;
+}
+.quick-links h2{
+	color: #1C9BB2;
+	margin-top: 40px;
+}
+.events{
+	margin-top: 20px;
+	width: 250px;
+	background-color: #C9E5EA;
+	padding: 10px;
+	float: right;
+}
+.event {
+	border-bottom: 1px solid #8CCFDB;
+	color: #39A2B5;
+	margin-bottom: 20px;
+}
+.event:last-child {
+	border-bottom: none;
+}
+.event h3{
+	color: #2F6C77;
+	margin: 0 0 10px 0;
+}
+.event h4{
+	margin: 0;
+}
+.event-description {
+	margin-top: 5px;
+}

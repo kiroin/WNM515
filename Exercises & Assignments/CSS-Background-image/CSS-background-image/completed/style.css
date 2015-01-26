@@ -1,0 +1,33 @@
+html, body {
+	margin:0;
+	font-family: arial, sans-serif;
+	background-color: #d4d3c1;
+}
+
+.main-image {
+	height: 400px;
+	background-color: orange;
+	background-image: url("images/city.jpg");
+	text-align: center;
+	color: #333;
+}
+.main-title{
+	padding-top: 120px;
+	margin: 0;
+	font-size: 50px;
+}
+.main-subtitle{
+	font-size: 30px;
+	margin: 10px;
+}
+section{
+	margin: 20px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #666;
+}
+
+.summary {
+	background-color: #d4d3c1;
+	color: #444;
+}

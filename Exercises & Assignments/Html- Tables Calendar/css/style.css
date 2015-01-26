@@ -1,0 +1,19 @@
+table {
+
+  border-collapse: collapse;
+}
+th {
+  border-bottom: 1px solid #3399cc;
+  width: 50px;
+  text-align: left;
+  padding: 5px;
+}
+td {
+  height: 70px;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.other-month {
+  background-color: #ddd;
+}
