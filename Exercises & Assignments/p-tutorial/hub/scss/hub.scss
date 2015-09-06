@@ -1,0 +1,84 @@
+
+@import '_vars';
+@import 'gridpak';
+
+.header{
+    padding: 45px 45px 18px 45px;
+    background-color: $primary;
+    color: $primary-color;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+}
+
+.header-title{
+    font-size: 48px;
+    font-family: 'RobotoSlab-Bold', $font;
+}
+.header-subtitle{
+    font-size: 28px;
+}
+.main{
+    min-height: 1px;
+    overflow: hidden;
+}
+
+.tutorial {
+    @extend .span_4;
+    background: #FFFFFF;
+    // width: 300px;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    //margin: 10px;
+    float: left;
+}
+
+.tutorial-image-link {
+    background-color: #ddd;
+    height: 165px;
+    width: 300px;
+    display: block;
+}
+
+.tutorial-title{
+    font-family: RobotoSlab-Regular;
+    font-size: 24px;
+    color: #F76B1C;
+    margin: 5px 8px 0 8px;
+    text-decoration: none;
+    display: block;
+}
+.tutorial-author{
+    font-family: RobotoSlab-Light;
+    font-size: 18px;
+    color: $gray-color;
+    margin: 0px 8px;
+}
+.tutorial-semester {
+    font-family: RobotoSlab-Thin;
+    font-size: 14px;
+    color: $gray-color;
+    margin: 0px 8px 10px 8px;
+}
+
+.footer {
+    padding: 10px;
+    color: $primary-color;
+    background-color: $primary;
+}
+
+.width-container{
+    max-width: 1000px;
+    margin: auto;
+}
+/************************\
+    Reset
+\************************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+* {
+    box-sizing: border-box;
+}

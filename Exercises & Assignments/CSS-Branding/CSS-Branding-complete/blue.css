@@ -1,0 +1,45 @@
+.section-burgers {
+    width: 550px;
+    font-family: "Palatino", times, serif;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    color: #2D5285;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.navigation {
+    border-top: 1px solid #BD4C4C;
+    border-bottom: 2px solid #BD4C4C;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    margin: 0 20px;
+    color: #BD4C4C;
+}
+
+.menu-item {
+    margin: 0;
+    padding: 60px 0;
+    border-bottom: 4px double #6181AC;
+    text-align: center;
+}
+
+.item-title {
+    color: #2D5285;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.item-description {
+    color: #BD4C4C;
+    font-size: 17px;
+    line-height: 33px;
+    margin: 0 20px;
+}

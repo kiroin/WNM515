@@ -1,0 +1,42 @@
+.section-burgers {
+    width: 550px;
+    font-family: "Trebuchet ms", arial, sans-serif;
+}
+
+.section-title {
+    background-color: #FF7A52;
+    color: #fff;
+    font-size: 42px;
+    padding: 20px 20px 50px 20px;
+    margin: 0;
+}
+
+.navigation {
+    background-color: #F7DFD8;
+    padding: 20px 0;
+    color: #FF8561;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+.menu-item {
+    background-color: #F6F5F5;
+    border: 1px solid #E3E3E3;
+    padding: 40px 20px;
+}
+
+.item-title {
+    margin: 0;
+    color: #FF6638;
+    font-size: 28px;
+    font-weight: normal;
+
+}
+.item-description {
+    margin: 10px 0;
+    color: #838383;
+    line-height: 25px;
+}
