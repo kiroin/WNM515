@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+  <title>Lightbox demo</title>
+
+  <script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/lightbox/lightbox-2.6.min.js"></script>
+	<link href="js/lightbox/css/lightbox.css" rel="stylesheet" type="text/css"/>
+
+  <style type="text/css">
+  	html, body {
+			padding: 0;
+			margin: 0;
+			background-color: #ddd;
+			color: #333;
+			font-family: arial, sans-serif;
+		}
+		h1 {
+			margin: 20px 20px 10px 20px;
+		}
+		h3 {
+			margin: 40px 20px 0px 20px;
+		}
+		p.description {
+			font-style: italic;
+			margin: 10px 20px 40px 20px;
+			color: #666;
+		}
+		.instructions li {
+			margin: 40px 20px;
+		}
+
+		pre{
+			display: block;
+			padding: 10px;
+			margin: 5px 0;
+			border-radius: 5px;
+			text-align: left;
+			background-color: #fff;
+			color: #ac8053;
+			width: 80%;
+			overflow: auto;
+		}
+
+		a{
+			text-decoration: none;
+		}
+		.h {
+			background-color: yellow;
+			font-weight: bold;
+		}
+		.thumbnails {
+			margin-left: 20px;
+		}
+  </style>
+</head>
+
+<body>
+	<h1>Lightbox demo</h1>
+	<p class="description">
+		Add focus to an image on demand by using lightbox effect. On click, present a larger image above a darkened out page. Uses <a href="http://lokeshdhakar.com/projects/lightbox2/">Lightbox 2 (2.6)</a> and <a href="http://jquery.com">jQuery (1.10.2)</a>.
+	</p>
+	<div class="thumbnails">
+		<a href="images/j1.jpg" data-lightbox="japan" title="Japan image 1">
+			<img src="images/thumbs/j1-sm.jpg">
+		</a>
+		<a href="images/j2.jpg" data-lightbox="japan" title="Japan image again">
+			<img src="images/thumbs/j2-sm.jpg">
+		</a>
+		<a href="images/j3.jpg" data-lightbox="japan" title="Japan image again">
+			<img src="images/thumbs/j3-sm.jpg">
+		</a>
+		<a href="images/j2.jpg" data-lightbox="japan" title="Japan image again">
+			<img src="images/thumbs/j4-sm.jpg">
+		</a>
+    </div>
+
+	<div class="thumbnails">
+		<a href="images/h1.jpg" data-lightbox="hawaii" title="hawaii image">
+			<img src="images/thumbs/h1-sm.jpg">
+		</a>
+		<a href="images/h2.jpg" data-lightbox="hawaii" title="hawaii image again">
+			<img src="images/thumbs/h2-sm.jpg">
+		</a>
+		<a href="images/h3.jpg" data-lightbox="hawaii" title="hawaii image again">
+			<img src="images/thumbs/h3-sm.jpg">
+		</a>
+		<a href="images/h4.jpg" data-lightbox="hawaii" title="hawaii image again">
+			<img src="images/thumbs/h4-sm.jpg">
+		</a>
+  </div>
+
+
+	<div>
+		<h3>Slimbox2 Steps:</h3>
+		<ol class="instructions">
+			<li>
+				Add a links to the larger images
+				<pre><code>&lt;a href="images/h1.jpg" data-lightbox="hawaii" title="hawaii image"&gt;
+	&lt;img src="images/thumbs/h1-sm.jpg"&gt;
+&lt;/a&gt;
+&lt;a href="images/h2.jpg" data-lightbox="hawaii" title="hawaii image again"&gt;
+	&lt;img src="images/thumbs/h2-sm.jpg"&gt;
+&lt;/a&gt;
+&lt;a href="images/h3.jpg" data-lightbox="hawaii" title="hawaii image again"&gt;
+	&lt;img src="images/thumbs/h3-sm.jpg"&gt;
+&lt;/a&gt;
+&lt;a href="images/h4.jpg" data-lightbox="hawaii" title="hawaii image again"&gt;
+	&lt;img src="images/thumbs/h4-sm.jpg"&gt;
+&lt;/a&gt;</code></pre>
+			</li>
+
+			<li>
+				Link jQuery and Lightbox javascript files. (Add to the head section)
+				<pre><code>&lt;script src="js/jquery-1.10.2.min.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script src="js/lightbox/lightbox-2.6.min.js" type="text/javascript"&gt;&lt;/script&gt;</code></pre>
+			</li>
+			<li>
+				Link the CSS (You can customize the look of the lightbox within)
+				<pre><code>&lt;link href="js/lightbox/css/lightbox.css" rel="stylesheet" type="text/css" /&gt;</code></pre>
+			</li>
+
+
+		</ol>
+
+		<h3>Details:</h3>
+		<ul class="instructions">
+			<li>
+				Add <code>data-lightbox=""</code> to activate the lightbox. Group a set of photos by using the same data-lightbox name.
+				<pre><code>&lt;a href="j1.jpg" <span class="h">data-lightbox="japan"</span> title="image caption"&gt; link text &lt;/a&gt;
+&lt;a href="j2.jpg"  <span class="h">data-lightbox="japan"</span> title="image caption"&gt; link text &lt;/a&gt;</code></pre>
+			</li>
+			<li>
+				Add a caption by adding <code>title="caption text"</code>
+				<pre><code>&lt;a href="j1.jpg" rel="lightbox" <span class="h">title="caption text"</span>&gt; link text &lt;/a&gt;</code></pre>
+			</li>
+
+
+		</ul>
+	</div>
+</body>
+</html>
