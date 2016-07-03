@@ -1,180 +1,202 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>Dropdown menu demo</title>
- 
+  <title>Dropdown menu demo</title>
+
 	<style type="text/css">
 		body{
 			padding: 20px;
 			font-family: Arial, sans-serif;
 			color: #333;
 		}
-		a img{ 
-			padding: 5px;
-			margin: 10px;
-			border: 1px solid #666;
+
+
+		.navigation {
+			display: flex; /* turns links into columns*/
+			width: 960px;
 		}
-		a:hover img{
-			border: 1px solid #3399cc;
-			background-color: #dcf7f7;
+
+		.nav-link {
+			width: 100px;
+			border: 1px solid black;
+			height: 50px;
+			line-height: 50px;
+			background-color: #eee;
+			padding: 0 20px;
+			color: #000;
+			text-decoration: none;
+			text-align: center;
 		}
-		span.h{
-			background-color: #f9fca2;
-			font-weight: bold;
+		.nav-link:hover {
+			background-color: yellow;
+		}
+
+		.dropdown {
+			position: relative;
+			background-color: #eee;
+		}
+		.dropdown:hover {
+			background-color: #ddd;
+		}
+		.dropdown-top-link {
+			width: 100px;
+			display: block;
+			height: 50px;
+			line-height: 50px;
+			padding: 0 20px;
+			color: #000;
+			text-decoration: none;
+			text-align: center;
 		}
 
 
-
-		/* These styles create the dropdown menus. */
-		#navbar {
-		   margin: 0;
-		   padding: 0;
-		   height: 50px; }
-		#navbar li {
-		   list-style: none;
-		   float: left; }
-		
-		/* top nav style */
-		#navbar li a {
-		   display: block;
-		   padding: 15px 30px;
-		   background-color: #333333;
-		   color: #fff;
-		   text-decoration: none;
-		   font-size: 16px;
-		   }
-		   
-		#navbar li ul {
-		   display: none; 
-		   width: 10em; /* Width to help Opera out */}
-		   
-		#navbar li:hover ul, #navbar li.hover ul {
-		   display: block;
-		   position: absolute;
-		   margin: 0;
-		   padding: 0; }
-		   
-		/* top nav on hover */
-		#navbar li:hover a{
-			background-color: #666;
+		.dropdown-contents {
+			display: none; /* hide dropdown contents until hover */
+			position: absolute;
+			z-index: 2;
+			background-color: #ddd;
 		}
-		#navbar li:hover li, #navbar li.hover li {
-		   float: none; }
-		   
-		/* subnav style */
-		#navbar li:hover li a, #navbar li.hover li a {
-		   background-color: #666;
-		   border-bottom: 1px solid #999;
-		   color: #fff;
-		   font-size: 12px;
-		   padding: 10px 30px;
-		   }
-		   
-		/* subnav on hover */
-		#navbar li li a:hover {
-		   background-color: #d6a40a; }
+		.dropdown:hover .dropdown-contents {
+			display: block; /* show contents on hover */
+		}
+		.dropdown-link {
+			display: block;
+			text-decoration: none;
+			padding: 10px 20px;
+			color: #000;
+			width: 200px;
+		}
+		.dropdown-link:hover {
+			background-color: yellow;
+		}
+
+
 	</style>
-
-	<script>
-	// Javascript originally by Patrick Griffiths and Dan Webb.
-	// http://htmldog.com/articles/suckerfish/dropdowns/
-	sfHover = function() {
-	   var sfEls = document.getElementById("navbar").getElementsByTagName("li");
-	   for (var i=0; i<sfEls.length; i++) {
-		 sfEls[i].onmouseover=function() {
-		    this.className+=" hover";
-		 }
-		 sfEls[i].onmouseout=function() {
-		    this.className=this.className.replace(new RegExp(" hover\\b"), "");
-		 }
-	   }
-	}
-	</script>
-
 </head>
+
 <body>
 	<h1>Dropdown menu example</h1>
-	<h3>Via <a href="http://www.cssnewbie.com/easy-css-dropdown-menus/">CSS Newbie</a></h3>
 
-	<div>
-		<ul id="navbar">
-		<!-- The strange spacing herein prevents an IE6 whitespace bug. -->
-		   <li><a href="#">Item One</a><ul>
-			 <li><a href="#">Subitem One</a></li><li>
-			 <a href="#">Second Subitem</a></li><li>
-			 <a href="#">Numero Tres</a></li></ul>
-		   </li>
-		   <li><a href="#">Second Item</a>
-			 <ul>
-			    <li><a href="#">Just one subitem</a></li></ul>
-		   </li>
-		   <li><a href="#">No Subitem</a></li>
-		   <li><a href="#">Number Four</a>
-			 <ul>
-			    <li><a href="#">Subitem One</a></li><li>
-			    <a href="#">Second Subitem</a></li><li>
-			    <a href="#">Numero Tres</a></li><li>
-			    <a href="#">Fourth Thinger</a></li></ul>         
-		   </li>
-		</ul>
+	<div class="navigation">
+		<a class="nav-link" href="#">
+			Home
+		</a>
+		<div class="dropdown">
+			<a class="dropdown-top-link" href="#">
+				Pages
+			</a>
+			<div class="dropdown-contents">
+				<a class="dropdown-link" href="#">
+					Page 1
+				</a>
+				<a class="dropdown-link" href="#">
+					Page 2
+				</a>
+				<a class="dropdown-link" href="#">
+					Page 3
+				</a>
+			</div>
+		</div>
+		<a class="nav-link" href="#">
+			About Me
+		</a>
 	</div>
 
-    
-    
+
+
 	<div>
 		<h3>Dropdown menu Steps:</h3>
 		<ol>
 
-			<li>Create 2 unordered lists for your dropdown menu links.
-			<pre title="2 ordered lists" class="brush: xml;">
-&lt;ul id="navbar"&gt;
-&lt;!-- The strange spacing herein prevents an IE6 whitespace bug. --&gt;
-	&lt;li&gt;
-		&lt;a href="#"&gt;Item One&lt;/a&gt;
-		&lt;ul&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Subitem One&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Second Subitem&lt;/a&gt;&lt;/li&gt;    
-			&lt;li&gt;&lt;a href="#"&gt;Numero Tres&lt;/a&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	&lt;/li&gt;
-
-	&lt;li&gt;
-		&lt;a href="#"&gt;Second Item&lt;/a&gt;
-		&lt;ul&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Just one subitem&lt;/a&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	&lt;/li&gt;
-
-	&lt;li&gt;
-		&lt;a href="#"&gt;No Subitem&lt;/a&gt;
-	&lt;/li&gt;
-
-	&lt;li&gt;
-		&lt;a href="#"&gt;Number Four&lt;/a&gt;
-		&lt;ul&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Subitem One&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Second Subitem&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Numero Tres&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href="#"&gt;Fourth Thinger&lt;/a&gt;&lt;/li&gt;
-		&lt;/ul&gt;    
-	&lt;/li&gt;
-&lt;/ul&gt;</pre>
+			<li>Create your navigation links and dropdown
+				<pre title="navigation" class="brush: html;">
+&lt;div class="navigation"&gt;
+	&lt;a class="nav-link" href="#"&gt;
+		Home
+	&lt;/a&gt;
+	&lt;div class="dropdown"&gt;
+		&lt;a class="dropdown-top-link" href="#"&gt;
+			Pages
+		&lt;/a&gt;
+		&lt;div class="dropdown-contents"&gt;
+			&lt;a class="dropdown-link" href="#"&gt;
+				Page 1
+			&lt;/a&gt;
+			&lt;a class="dropdown-link" href="#"&gt;
+				Page 2
+			&lt;/a&gt;
+			&lt;a class="dropdown-link" href="#"&gt;
+				Page 3
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;a class="nav-link" href="#"&gt;
+		About Me
+	&lt;/a&gt;
+&lt;/div&gt;
+				</pre>
 			</li>
-			<li>Link the CSS code in your head section:<br>
-				<pre class="brush: xml;">
-&lt;link type="text/css" rel="stylesheet" href="menu.css"&gt;&lt;link&gt;</pre>
-			</li>
-			<li>In the menu.css, hange the colors/spacing to match your look.
-			<pre class="brush: css;">
-/* top nav style */
-#navbar li a {
-   display: block;
-   padding: 15px 30px;
-   background-color: #333333;
-   color: #fff;
-   text-decoration: none;
-   font-size: 16px;
-}</pre>
+			<li>In your css, alter the colors/spacing to match your look.
+				<pre class="brush: css;">
+.navigation {
+	display: flex; /* turns links into columns*/
+	width: 960px;
+}
+
+.nav-link {
+	width: 100px;
+	border: 1px solid black;
+	height: 50px;
+	line-height: 50px;
+	background-color: #eee;
+	padding: 0 20px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+.nav-link:hover {
+	background-color: yellow;
+}
+
+.dropdown {
+	position: relative;
+	background-color: #eee;
+}
+.dropdown:hover {
+	background-color: #ddd;
+}
+.dropdown-top-link {
+	width: 100px;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.dropdown-contents {
+	display: none; /* hide dropdown contents until hover */
+	position: absolute;
+	z-index: 2;
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-contents {
+	display: block; /* show contents on hover */
+}
+.dropdown-link {
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #000;
+	width: 200px;
+}
+.dropdown-link:hover {
+	background-color: yellow;
+}
+				</pre>
 			</li>
 		</ol>
 	</div>

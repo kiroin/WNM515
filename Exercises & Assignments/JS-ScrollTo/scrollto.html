@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>
+			Scroll demo
+		</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function (){
+            $("#button-1").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#section-1").offset().top
+                }, 1000);
+            });
+            $("#button-2").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#section-2").offset().top
+                }, 1000);
+            });
+            $("#button-3").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#section-3").offset().top
+                }, 1000);
+            });
+        });
+    </script>
+		<style type="text/css">
+      nav {
+        position: fixed;
+        width: 100px;
+        top: 5px;
+      }
+			a {
+        display: inline-block;
+				background-color: #3399cc;
+				color: #fff;
+				width: 100px;
+				padding: 20px;
+        margin: 5px 0;
+				cursor: pointer;
+			}
+			section {
+				border: 2px solid gray;
+				min-height: 500px;
+        margin: 100px 250px;
+        padding: 20px;
+			}
+      section:last-child {
+        /* need enough space at bottom to scroll all the way */
+        margin-bottom: 1000px;
+      }
+		</style>
+	</head>
+	<body>
+    <nav>
+      <a id="button-1" href="#section-1">
+        Go to Section 1
+      </a>
+      <a id="button-2" href="#section-2">
+        Go to Section 2
+      </a>
+  		<a id="button-3" href="#section-3">
+  			Go to Section 3
+  		</a>
+    </nav>
+
+		<section id="section-1">
+			<h1>Section 1</h1>
+			<p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+		</section>
+
+    <section id="section-2">
+      <h1>Section 2</h1>
+      <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+    </section>
+
+    <section id="section-3">
+      <h1>Section 3</h1>
+      <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+    </section>
+	</body>
+</html>

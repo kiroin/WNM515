@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
+
+body {
+  margin: 0;
+  background-color: #efefef;
+  font-family: roboto, arial, sans-serif;
+  font-weight: 300;
+}
+
+.blue {
+  background-color: #288bcd;
+}
+.red {
+  background-color: #ee5573;
+}
+.yellow {
+  background-color: #ffa73a;
+}
+
+
+/*
+  Home page
+*/
+
+.home-top {
+  background-color: #333;
+  text-align: center;
+}
+.vacation-ideas {
+  padding: 40px 0;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.module {
+  width: 600px;
+  height: 244px;
+  margin: 20px auto;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.left-image {
+  width: 300px;
+  height: 245px;
+  float: left;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.snow {
+  background-image: url('images/snow.jpg');
+}
+.mountains {
+  background-image: url('images/mountains.jpg');
+}
+.city {
+  background-image: url('images/city.jpg');
+}
+
+.right-text {
+  width: 250px;
+  height: 205px;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+.section-title {
+  margin: 10px 0 0 0;
+  font-weight: 500;
+}
+.section-description {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: 5px 0 15px 0;
+}
+.read-on {
+  text-decoration: none;
+  color: gray;
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 16px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+.read-on:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.blue .read-on {
+  color: #288bcd;
+}
+.red .read-on {
+  color: #ee5573;
+}
+.yellow .read-on {
+  color: #ffa73a;
+}
+
+
+
+
+
+
+/*
+  detail pages
+*/
+
+.nav {
+  background-color: #333333;
+  text-align: center;
+  min-width: 700px;
+}
+.nav-link {
+  font-size: 18px;
+  display: inline-block;
+  margin: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.nav-link:hover {
+  background-color: #444;
+}
+.nav-vacation {
+  color: #62B7BB;
+}
+.nav-snow {
+  color: #288bcd;
+}
+.nav-mountains {
+  color: #ee5573;
+}
+.nav-city {
+  color: #ffa73a;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 60px;
+  min-width: 700px;
+}
+.hero-blue {
+  background-image: url(images/snow-blue.jpg);
+}
+.hero-red {
+  background-image: url(images/mountains-red.jpg);
+}
+.hero-yellow {
+  background-image: url(images/city-yellow.jpg);
+}
+.hero-text {
+  margin: 0;
+  padding: 100px 0 10px 0;
+  font-size: 40px;
+  font-weight: 400;
+}
+.hero-subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px 0;
+  padding-bottom: 100px;
+}
+
+.main-body {
+  width: 700px;
+  margin: 0 auto 300px auto;
+}
+.box {
+  height: 250px;
+  width: 300px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 50px 0 0 0;
+  line-height: 1.5em;
+  display: inline-block;
+}
+.box-description {
+  width: 330px;
+  margin-left: 40px;
+  display: inline-block;
+  vertical-align: top;
+  color: #404040;
+}
+.box-title {
+  font-size: 35px;
+  margin: 0;
+}
+.box-details {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.5em;
+}
+
+
